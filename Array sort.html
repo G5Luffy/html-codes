@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <h2>Array Sort</h2>
+        <p> click button to sort in array.</p>
+        <button onclick="ascending()">button</button>
+        <p id="result"></p>
+        <script>
+            var points = [50,100,5,10,25]
+            document.getElementById("result").innerHTML.points; {
+                function ascending() {
+                    points.sort(function(a,b) {return a-b});
+                    document.getElementById("result").innerHTML=points;
+                }
+            }
+        </script>
+    </body>
+</html>
